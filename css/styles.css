@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f8ff;
+}
+
+.header {
+  max-width: 730px;
+  width: 100%;
+  margin: 144px auto 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-family: "Space Mono", monospace;
+  color: #222731;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.header__mode-icon {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.header__mode {
+  font-family: "Space Mono", monospace;
+  color: #697c9a;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
