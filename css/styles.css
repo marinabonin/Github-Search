@@ -138,7 +138,6 @@ body {
   color: #697c9a;
   font-family: "Space Mono", monospace;
   font-size: 15px;
-  font-weight: 400;
 }
 
 .profile__link {
@@ -147,13 +146,13 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
+  line-height: 180%;
 }
 
 .profile__description {
   color: #4b6a9b;
   font-family: "Space Mono", monospace;
   font-size: 15px;
-  font-weight: 400;
   line-height: 25px;
   margin-bottom: 32px;
 }
@@ -191,16 +190,18 @@ body {
   gap: 20px 55px;
 }
 
-.social-media__text,
-.social-media__link {
+.social-media__text {
   color: #4b6a9b;
   font-family: "Space Mono", monospace;
   font-size: 15px;
-  font-weight: 400;
   padding-left: 16px;
+  text-decoration: none;
 }
 
-.social-media__link {
-  text-decoration: none;
+.social-media__text--small-padding {
   padding-left: 10px;
+}
+
+.social-media__item--disabled {
+  opacity: 0.5;
 }
