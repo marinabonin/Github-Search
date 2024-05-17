@@ -62,6 +62,7 @@ body {
   padding: 10px;
   padding-left: 22px;
   gap: 24px;
+  margin-bottom: 38px;
 }
 
 .search__icon-input {
@@ -99,4 +100,107 @@ body {
   font-weight: 700;
   border: none;
   padding: 13px 24px;
+}
+
+/* PROFILE */
+.profile {
+  padding: 48px;
+  border-radius: 15px;
+  background: #fefefe;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  margin-bottom: 131px;
+
+  display: flex;
+  gap: 37px;
+}
+
+.profile__image {
+  width: 117px;
+  height: 117px;
+  border-radius: 117px;
+}
+
+.profile__name-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.profile__name {
+  color: #2b3442;
+  font-family: "Space Mono", monospace;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.profile__date {
+  color: #697c9a;
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.profile__link {
+  color: #0079ff;
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.profile__description {
+  color: #4b6a9b;
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 32px;
+}
+
+.statistics {
+  border-radius: 10px;
+  background-color: #f6f8ff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 85px;
+  margin-bottom: 37px;
+  padding: 15px 32px 17px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.statistics__title {
+  color: #4b6a9b;
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.statistics__number {
+  color: #2b3442;
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 55px;
+}
+
+.social-media__text,
+.social-media__link {
+  color: #4b6a9b;
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+.social-media__link {
+  text-decoration: none;
+  padding-left: 10px;
 }
